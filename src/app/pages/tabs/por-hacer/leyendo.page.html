@@ -1,0 +1,32 @@
+
+<ion-content class="home">
+  <ion-card id="main">
+    <ion-list>
+      <h2 class="subtitulo">Por Hacer</h2>
+
+      <div class="btns">
+        <button mat-raised-button class="btn-custom" expand="block" (click)="agregarManga()">Agregar Tarea</button>
+      </div>
+      
+      <ion-item *ngFor="let manga of mangasFiltrados">
+        <ion-label>
+          <h2>{{ manga.nombre }}</h2>
+          <br>
+
+          <mat-form-field appearance="fill" class="selector">
+            <mat-label>Estado</mat-label>
+            <mat-select [(ngModel)]="manga.estadoSeleccionado" (selectionChange)="cambiarEstado(manga, $event.value)">
+              <mat-option *ngFor="let estado of estados" [value]="estado">
+                {{ estado }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </ion-label>
+      
+      </ion-item>
+
+    </ion-list>
+  </ion-card>
+</ion-content>
+
+

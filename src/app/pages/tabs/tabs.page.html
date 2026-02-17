@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar class="custom-header-toolbar">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button></ion-buttons>
+      <app-logo></app-logo> <!--componente logo-->
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  
+<ion-tabs>
+ <ion-tab-bar slot="bottom">
+  <ion-tab-button tab="leyendo" class="btn-tab">
+    <ion-icon name="reader-outline"></ion-icon>
+    <ion-label>Por Hacer</ion-label>
+  </ion-tab-button>
+
+  <ion-tab-button tab="por-leer" class="btn-tab">
+    <ion-icon name="alert-circle-outline"></ion-icon>
+    <ion-label>Importante</ion-label>
+  </ion-tab-button>
+
+  
+  <ion-tab-button tab="leidos" class="btn-tab">
+    <ion-icon name="checkmark-done-outline"></ion-icon>
+    <ion-label>Hechos</ion-label>
+  </ion-tab-button>
+
+ </ion-tab-bar>
+
+
+
+</ion-tabs>
+
+</ion-content>
+
+
+<ion-footer>
+  <ion-toolbar color="light">
+    <ion-title class="ion-text-center" size="small">
+      <app-footer></app-footer> <!--componente footer-->
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>
