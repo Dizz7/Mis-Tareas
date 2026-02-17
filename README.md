@@ -20,9 +20,7 @@ Está diseñada como ejercicio práctico y **no requiere conexión a internet ni
 
 ## 🚀 Beta Pública
 
-También dejaré disponible un .apk en releases para probar la app en Android:
-
-[⬇️ Descargar APK](https://github.com/Dizz7/Mis-Tareas/releases/download/v1.0.0b/Mis.Tareas.apk)
+También dejaré disponible un .apk en releases para probar la app en Android.
 
 > Nota: Esta versión es experimental y puede contener errores.  
 > Funciona solo en dispositivos Android.  
