@@ -34,3 +34,11 @@ npm install
 ionic serve
 
 ## También dejaré disponible una .apk en releases.
+
+## 📥 Descarga la Beta
+
+Puedes descargar la **beta pública** de Mis Tareas desde el siguiente enlace:  
+[⬇️ Descargar APK]([https://github.com/Dizz7/Mis-Tareas/releases/download/v.1.0.0b/Mis.Tareas.apk])
+
+
+
